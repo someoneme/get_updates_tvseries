@@ -1,1 +1,7 @@
-This section explains you the code.
+# Source Code
+'''python
+print(a)
+for i in range(3):
+  print i
+
+'''
