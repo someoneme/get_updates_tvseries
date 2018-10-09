@@ -23,6 +23,23 @@ This application is entirely made on python along with many other libraries such
 
 This application can be run in GUI as well as CLI mode. These are the snapshots of this application run on macOS High Sierra
 
+### GUI MODE
 ![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/GUI.png "Get updates")
 
-The server email and password will contain the email id and password of the sender. The email address of the recepient will be contained in the third row. All the TV Series titles will be written in the box separated by a comma.
++ The server email and password will contain the email id and password of the sender. 
++ The email address of the recepient will be contained in the third row. 
++ All the TV Series titles will be written in the box separated by a comma.
+
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/Mail sent.png "Get updates")
+
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/mail.png "Get updates")
++ After pressing the send button, a mail will be sent by the server to the recepient. It will contain the list of TV series along with the date/year.
+
+### CLI MODE
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/Terminal.png "Get updates")
+
++ The same application can also be run on command line where the user have to just enter the email along with his personalized list of TV Series. 
+
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/Mail_terminal.png "Get updates")
+
++ This way he will get the mail via the command line.
