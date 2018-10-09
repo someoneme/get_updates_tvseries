@@ -22,4 +22,7 @@ This application is entirely made on python along with many other libraries such
 - MySQLdb for MySQLdb
 
 This application can be run in GUI as well as CLI mode. These are the snapshots of this application run on macOS High Sierra
+
 ![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/GUI.png "Get updates")
+
+The server email and password will contain the email id and password of the sender. The email address of the recepient will be contained in the third row. All the TV Series titles will be written in the box separated by a comma.
