@@ -1,5 +1,5 @@
 # Source Code
-## Web Mining
+## Mining the web
 ### Getting the query from user and searching on imdb
 ```Python
 query=Season_split[list_Season].rstrip().lstrip().lower()
@@ -26,7 +26,7 @@ for i in soup.find_all("div", {"class": "list_item"}):
     for k in i.find_all("div", {"class": "airdate"}): # Getting the air date for not released episodes.
       date = k.text.lstrip().rstrip()
 ```
-### Inserting values in SQL Database
+## Using SQL Database
 ```Python
 sql = "INSERT INTO users (email, season) VALUES (%s, %s)"
 val = (self.email, self.mov)
