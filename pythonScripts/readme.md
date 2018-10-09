@@ -8,7 +8,6 @@ data={
   's': 'tt'
 }
 r = requests.get('https://www.imdb.com/find/', params=data)
-
 ```
 ### Sorting the TV Series with that name from movies
 ```Python
@@ -16,7 +15,6 @@ for k in soup.find_all("td", {"class": "result_text"}):
   if k.text.split()[-1]=="series)":
     l=k.find_all('a')
     break
-
 ```
 ### Checking if the season is rated or not, i.e. if released or not as well as getting the air date for the next episode
 ```Python
@@ -27,5 +25,23 @@ for i in soup.find_all("div", {"class": "list_item"}):
   if true_false==True: 
     for k in i.find_all("div", {"class": "airdate"}): # Getting the air date for not released episodes.
       date = k.text.lstrip().rstrip()
-
+```
+### Inserting values in SQL Database
+```Python
+sql = "INSERT INTO users (email, season) VALUES (%s, %s)"
+val = (self.email, self.mov)
+cur.execute(sql, val)
+```
+## Sending Mail
+```Python
+password = self.spassword
+msg['From'] = self.semail
+msg['To'] = self.email
+msg['Subject'] = "TV Series along with release date"
+msg.attach(MIMEText(message, 'plain'))
+server = smtplib.SMTP('smtp.gmail.com: 587')
+server.starttls()
+server.login(msg['From'], password)
+server.sendmail(msg['From'], msg['To'], msg.as_string())
+server.quit()
 ```
