@@ -30,7 +30,7 @@ This application can be run in GUI as well as CLI mode. These are the snapshots 
 + The email address of the recepient will be contained in the third row. 
 + All the TV Series titles will be written in the box separated by a comma.
 
-![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/Mail\ sent.png "Get updates")
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/Mail_sent.png "Get updates")
 
 ![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/mail.png "Get updates")
 + After pressing the send button, a mail will be sent by the server to the recepient. It will contain the list of TV series along with the date/year.
