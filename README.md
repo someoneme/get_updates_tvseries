@@ -21,3 +21,5 @@ This application is entirely made on python along with many other libraries such
 - BeautifulSoup for web mining
 - MySQLdb for MySQLdb
 
+This application can be run in GUI as well as CLI mode. These are the snapshots of this application run on macOS High Sierra
+![GUI Mode](screenshots/gui.png "Get updates")
