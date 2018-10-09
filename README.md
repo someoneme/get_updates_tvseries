@@ -22,4 +22,4 @@ This application is entirely made on python along with many other libraries such
 - MySQLdb for MySQLdb
 
 This application can be run in GUI as well as CLI mode. These are the snapshots of this application run on macOS High Sierra
-![GUI Mode](screenshots/gui.png "Get updates")
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/GUI.png "Get updates")
