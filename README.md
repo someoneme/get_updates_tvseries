@@ -21,7 +21,7 @@ This application is entirely made on python along with many other libraries such
 - BeautifulSoup for web mining
 - MySQLdb for MySQLdb
 
-This application can be run in GUI as well as CLI mode. These are the snapshots of this application run on macOS High Sierra
+This application can be run in GUI as well as CLI mode. These are the snapshots of this application run on macOS High Sierra. It will take the input of user, search the web for the release date of that TV show, save it in database and mail the dates to the user.
 
 ### GUI MODE
 ![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/GUI.png "Get updates")
