@@ -45,3 +45,8 @@ server.login(msg['From'], password)
 server.sendmail(msg['From'], msg['To'], msg.as_string())
 server.quit()
 ```
+# Prerequisites
+Before being able to run the application, follow these steps:-
++ Remove 2 step verification.
++ Login to your gmail account and allow less secure application. Go to https://myaccount.google.com/u/1/lesssecureapps?pageId=none
+![GUI Mode](https://github.com/someoneme/get_updates_tvseries/blob/master/Screenshots/less_secure_app.png "Get updates")
